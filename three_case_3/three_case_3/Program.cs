@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -49,7 +49,7 @@ namespace three_case_3
                     do
                     {
                         Console.SetCursorPosition(2, 3);
-                        Console.WriteLine("Væge Password");
+                        Console.WriteLine("Vælge Password");
 
 
                     }
