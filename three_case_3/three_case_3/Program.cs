@@ -19,7 +19,8 @@ namespace three_case_3
             Console.SetCursorPosition(2, 4);
             Console.WriteLine("Tryk på en af tasterne [P],[F],[D],[Q]");
             Console.SetCursorPosition(2, 6);
-            Console.WriteLine("[P] Password [F] Fodbold [S] Dans [Q] Quit");
+            // hvis du taster P kommer du ind i Password programmet hvis du taster F kommer du ind i Fodbold programet hvis du taster D kommer du ind i Dans programmet og hvis du taster Q slukker du programet
+            Console.WriteLine("[P] Password [F] Fodbold [D] Dans [Q] Quit");
             Console.SetCursorPosition(2, 8);
             Console.Write("Indtast dit valg:  ");
 
