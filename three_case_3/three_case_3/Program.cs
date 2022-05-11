@@ -13,6 +13,7 @@ namespace three_case_3
         {
             //min variabler
            string password, bruger;
+           
             //start af mit program
             Console.SetCursorPosition(2, 2);
             Console.WriteLine("Velkommen");
@@ -52,8 +53,16 @@ namespace three_case_3
                     {
                         Console.SetCursorPosition(2, 3);
                         Console.WriteLine("Vælge Password");
-
-
+                        Console.SetCursorPosition(2,4);
+                        Console.WriteLine("Husk at Password skal havde både stor og små bogstaver i sig");
+                        Console.SetCursorPosition(2,5);
+                        Console.WriteLine("Huske password ikke må slutte på bogstaver");
+                        Console.SetCursorPosition(2, 6);
+                        Console.WriteLine("password skal også have Speciale tegn i sig");
+                        Console.SetCursorPosition(2, 7);
+                        Console.WriteLine("Der må ikke være tal i starten eller i slutning af password");
+                        Console.SetCursorPosition(2, 8);
+                        Console.WriteLine("Må ikke indeholde mellemrum");
                     }
 
                 }
